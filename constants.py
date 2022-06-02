@@ -21,14 +21,14 @@ FIELD_LEFT = 0
 FIELD_RIGHT = SCREEN_WIDTH
 
 # FONT
-FONT_FILE = "Pong/assets/fonts/zorque.otf"
+FONT_FILE = "assets/fonts/zorque.otf"
 FONT_SMALL = 32
 FONT_LARGE = 48
 
 # SOUND
-BOUNCE_SOUND = "Pong/assets/sounds/boing.wav"
-WELCOME_SOUND = "Pong/assets/sounds/start.wav"
-OVER_SOUND = "Pong/assets/sounds/over.wav"
+BOUNCE_SOUND = "assets/sounds/boing.wav"
+WELCOME_SOUND = "assets/sounds/start.wav"
+OVER_SOUND = "assets/sounds/over.wav"
 
 # TEXT
 ALIGN_CENTER = 0
@@ -58,7 +58,7 @@ IN_PLAY = 3
 GAME_OVER = 4
 
 # LEVELS
-LEVEL_FILE = "Pong/assets/data/level-{:03}.txt"
+LEVEL_FILE = "assets/data/level-{:03}.txt"
 BASE_LEVELS = 5
 
 # -------------------------------------------------------------------------------------------------- 
@@ -95,7 +95,7 @@ SCORE_FORMAT = "SCORE: {}"
 
 # BALL
 BALL_GROUP = "balls"
-BALL_IMAGE = "Pong/assets/images/000.png"
+BALL_IMAGE = "assets/images/000.png"
 BALL_WIDTH = 28
 BALL_HEIGHT = 28
 BALL_VELOCITY = 6
@@ -104,8 +104,8 @@ BALL_VELOCITY = 6
 
 # RACKET
 RACKET_GROUP = "racket"
-RACKET_IMAGES = [f"Pong/assets/images/{n:03}.png" for n in range(100, 103)]
-RACKET_IMAGES2 = [f"Pong/assets/images/{n:03}.png" for n in range(104, 106)]
+RACKET_IMAGES = [f"assets/images/{n:03}.png" for n in range(100, 103)]
+RACKET_IMAGES2 = [f"assets/images/{n:03}.png" for n in range(104, 106)]
 RACKET_WIDTH = 106
 RACKET_HEIGHT = 28
 RACKET_RATE = 6
